@@ -426,6 +426,16 @@ address {
   margin-right: 516px;
   margin-bottom: 100px;
 }
+.our-icon {
+  display: flex;
+  align-items: flex-end;
+  width: 63px;
+  height: 45px;
+}
+.clients {
+  display: flex;
+  justify-content: center;
+}
 
 /*page2*/
 header {
