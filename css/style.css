@@ -165,19 +165,26 @@ section {
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.address-mails::before {
-  display: block;
-  content: '';
-  background-image: url(../icon/Vector.svg);
+.email:hover {
+  color: #2196f3;
 }
 .address-mails:hover {
   color: #2196f3;
+}
+.email {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  align-items: center;
 }
 /*hero*/
 .hero {
   background-color: #2f303a;
   padding: 200px 0;
+  background-image: url(../icon/Img.svg);
+  fill: #2f303a;
 }
+
 .hero-title {
   font-family: 'Roboto';
   font-style: normal;
@@ -345,10 +352,21 @@ section {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  justify-content: center;
+  margin-bottom: 50px;
 }
-.clients {
+.cli-link {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+}
+.cli {
+  display: flex;
+  gap: 30px;
+  width: 106px;
+  height: 60px;
 }
 /*footer*/
 .footer {
@@ -431,10 +449,6 @@ address {
   align-items: flex-end;
   width: 63px;
   height: 45px;
-}
-.clients {
-  display: flex;
-  justify-content: center;
 }
 
 /*page2*/
