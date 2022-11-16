@@ -144,15 +144,10 @@ section {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
-.address-tel::before {
-  display: block;
-  content: '';
-  font-size: 14px;
-  background-image: url(../icon/envelope.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 .address-tel:hover {
   color: #2196f3;
 }
@@ -164,10 +159,10 @@ section {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  display: flex;
+  align-items: center;
 }
-.email:hover {
-  color: #2196f3;
-}
+
 .address-mails:hover {
   color: #2196f3;
 }
@@ -176,13 +171,19 @@ section {
   height: 12px;
   margin-right: 10px;
   align-items: center;
+  fill: currentColor;
 }
 /*hero*/
 .hero {
   background-color: #2f303a;
   padding: 200px 0;
-  background-image: url(../icon/Img.svg);
-  fill: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/Img17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -341,7 +342,26 @@ section {
 }
 .our-icon {
   display: flex;
-  width: 206px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.komand-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  border-radius: 50%;
+}
+.insta,
+.twitter,
+.face,
+.linke {
+  width: 20px;
+  height: 20px;
+  color: #afb1b8;
 }
 .our-client {
   font-family: 'Roboto';
@@ -361,6 +381,10 @@ section {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.cli-li {
+  color: #2196f3;
 }
 .cli {
   display: flex;
@@ -443,12 +467,6 @@ address {
   outline: #2196f3;
   margin-right: 516px;
   margin-bottom: 100px;
-}
-.our-icon {
-  display: flex;
-  align-items: flex-end;
-  width: 63px;
-  height: 45px;
 }
 
 /*page2*/
