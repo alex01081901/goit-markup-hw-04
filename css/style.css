@@ -494,13 +494,21 @@ address {
   justify-content: center;
   width: 44px;
   height: 44px;
-  color: #afb1b8;
+  color: #ffffff;
   border-radius: 50%;
 }
-.komand-icon:hover {
+.instag,
+.twitter1,
+.faceb,
+.linked {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.footer-icon:hover {
   color: var(--accent-color);
 }
-.komand-icon:focus {
+.footer-icon:focus {
   color: var(--accent-color);
 }
 /*page2*/
