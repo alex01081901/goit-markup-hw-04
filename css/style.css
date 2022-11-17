@@ -166,6 +166,13 @@ section {
 .address-mails:hover {
   color: #2196f3;
 }
+.etel {
+  width: 12px;
+  height: 16px;
+  align-items: center;
+  fill: currentColor;
+  margin-right: 10px;
+}
 .email {
   width: 16px;
   height: 12px;
@@ -345,6 +352,7 @@ section {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 16px;
 }
 .komand-icon {
   display: flex;
@@ -355,13 +363,19 @@ section {
   color: #afb1b8;
   border-radius: 50%;
 }
+.komand-icon:hover {
+  color: #afb1b8;
+}
+.komand-icon:focus {
+  color: #afb1b8;
+}
 .insta,
 .twitter,
 .face,
 .linke {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
+  fill: currentColor;
 }
 .our-client {
   font-family: 'Roboto';
@@ -380,22 +394,32 @@ section {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid currentColor;
   border-radius: 4px;
+  color: #afb1b8;
 }
-.cli-li {
-  color: #2196f3;
+.cli,
+.cli-link:hover {
+  color: var(--accent-color);
 }
+.cli,
+.cli-link:focus {
+  color: var(--accent-color);
+}
+
 .cli {
   display: flex;
   gap: 30px;
-  width: 106px;
-  height: 60px;
+  fill: currentColor;
 }
 /*footer*/
 .footer {
   background: #2f303a;
   padding: 60px 0;
+}
+.footer .conteiner {
+  display: flex;
+  align-items: baseline;
 }
 .header-conteiner {
   display: flex;
@@ -452,13 +476,9 @@ address {
 .address-mail:hover {
   color: #2196f3;
 }
-.footer-icon {
-  font-family: 'Roboto';
-  font-style: normal;
+.footer-text {
   font-weight: 700;
-  font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -468,7 +488,21 @@ address {
   margin-right: 516px;
   margin-bottom: 100px;
 }
-
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  border-radius: 50%;
+}
+.komand-icon:hover {
+  color: var(--accent-color);
+}
+.komand-icon:focus {
+  color: var(--accent-color);
+}
 /*page2*/
 header {
   border: 1px solid #ececec;
@@ -548,6 +582,10 @@ header {
 .main-about-all {
   padding: 6px 25px;
 }
+
+.main-about-all:hover {
+  border: 1px solid #212121;
+}
 .main-about-all {
   background-color: #2196f3;
   color: #ffffff;
@@ -587,8 +625,14 @@ header {
 .main-about-line:focus {
   background-color: #2196f3;
   color: #ffffff;
+  border: 1px solid #212121;
 }
-
+.progect-link {
+  display: block;
+}
+.progect-link:hover {
+  border: 1px solid #eeeeee;
+}
 .progect-item {
   width: 370px;
   flex-basis: ((100% - 30 * 2) / 3);
