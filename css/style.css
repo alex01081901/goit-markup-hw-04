@@ -476,18 +476,23 @@ address {
 .address-mail:hover {
   color: #2196f3;
 }
+.contact {
+  margin-top: 72px;
+  margin-left: 70px;
+}
 .footer-text {
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
-.foter-icon {
+.foter-our-icon {
   display: flex;
-  outline: #2196f3;
-  margin-right: 516px;
-  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
 }
+
 .footer-icon {
   display: flex;
   align-items: center;
