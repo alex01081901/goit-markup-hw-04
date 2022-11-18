@@ -363,16 +363,13 @@ section {
   color: #afb1b8;
   border-radius: 50%;
 }
-.komand-icon:hover {
-  color: #afb1b8;
-}
+.komand-icon:hover,
 .komand-icon:focus {
-  color: #afb1b8;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
 }
-.insta,
-.twitter,
-.face,
-.linke {
+
+.social-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -398,16 +395,13 @@ section {
   border-radius: 4px;
   color: #afb1b8;
 }
-.cli,
-.cli-link:hover {
-  color: var(--accent-color);
-}
-.cli,
+
+.cli-link:hover,
 .cli-link:focus {
   color: var(--accent-color);
 }
 
-.cli {
+.cli-list {
   display: flex;
   gap: 30px;
   fill: currentColor;
@@ -477,7 +471,6 @@ address {
   color: #2196f3;
 }
 .contact {
-  margin-top: 72px;
   margin-left: 70px;
 }
 .footer-text {
